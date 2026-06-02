@@ -293,20 +293,6 @@ h3 {
   margin: 0 auto;
 }
 
-.highlights {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
-}
-
-.highlights article {
-  padding: 22px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface-muted);
-}
-
-.highlights span,
 .timeline-date {
   display: block;
   margin-bottom: 8px;
@@ -316,17 +302,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.highlights strong {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1.08rem;
-}
-
-.highlights p,
 .card p,
 .timeline p,
-.education-list p,
-.cv-download p {
+.education-list p {
   margin-bottom: 0;
   color: var(--muted);
 }
@@ -380,6 +358,16 @@ h3 {
   white-space: nowrap;
 }
 
+.publication-group + .publication-group {
+  margin-top: 34px;
+}
+
+.publication-group h3 {
+  margin-bottom: 16px;
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+
 .publication-list {
   display: grid;
   gap: 14px;
@@ -412,8 +400,7 @@ h3 {
 }
 
 .timeline article,
-.education-list article,
-.cv-download {
+.education-list article {
   padding: 24px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -422,7 +409,7 @@ h3 {
 
 .cv-grid {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr) 330px;
+  grid-template-columns: 260px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
@@ -430,10 +417,6 @@ h3 {
 .education-list {
   display: grid;
   gap: 14px;
-}
-
-.cv-download .button {
-  margin-top: 20px;
 }
 
 .site-footer {
@@ -481,7 +464,6 @@ h3 {
     padding: 70px 28px;
   }
 
-  .highlights,
   .research-grid {
     grid-template-columns: 1fr;
   }
