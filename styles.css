@@ -399,18 +399,16 @@ h3 {
   font-weight: 900;
 }
 
-.contribution-tag {
-  display: inline-flex;
-  align-items: center;
-  min-height: 22px;
-  margin-left: 6px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background: var(--soft-gold);
-  color: #735019;
-  font-size: 0.78rem;
-  font-weight: 800;
-  white-space: nowrap;
+.publication-note {
+  margin: 14px 0 0 24px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.publication-note sup,
+.publication-list sup {
+  color: var(--gold);
+  font-weight: 900;
 }
 
 .timeline {
