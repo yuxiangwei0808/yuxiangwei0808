@@ -452,39 +452,18 @@ h3 {
 .awards-list {
   display: grid;
   gap: 10px;
-  overflow-x: auto;
-}
-
-.award-item {
-  display: grid;
-  grid-template-columns: minmax(260px, 1fr) 100px 100px;
-  gap: 18px;
-  align-items: center;
-  min-width: 560px;
-  padding: 16px 20px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
-}
-
-.award-item h3 {
   margin: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  padding-left: 22px;
 }
 
-.award-time {
-  color: var(--muted);
+.awards-list li {
+  padding-left: 4px;
+  color: var(--ink);
   font-weight: 700;
-  white-space: nowrap;
 }
 
-.award-amount {
+.awards-list li::marker {
   color: var(--teal);
-  font-size: 1.05rem;
-  text-align: right;
-  white-space: nowrap;
 }
 
 .site-footer {
