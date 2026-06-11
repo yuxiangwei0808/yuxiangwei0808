@@ -394,6 +394,25 @@ h3 {
   font-weight: 800;
 }
 
+.author-highlight {
+  color: var(--teal);
+  font-weight: 900;
+}
+
+.contribution-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  margin-left: 6px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--soft-gold);
+  color: #735019;
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 .timeline {
   display: grid;
   gap: 18px;
