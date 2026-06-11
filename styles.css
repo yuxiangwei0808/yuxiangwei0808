@@ -368,6 +368,12 @@ h3 {
   font-size: 1.15rem;
 }
 
+.publication-group-summary {
+  max-width: 820px;
+  margin: -4px 0 16px;
+  color: var(--muted);
+}
+
 .publication-list {
   display: grid;
   gap: 14px;
