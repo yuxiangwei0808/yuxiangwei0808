@@ -430,6 +430,13 @@ h3 {
   background: var(--surface);
 }
 
+.experience-meta {
+  margin: -2px 0 10px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
 .cv-grid {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
